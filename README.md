@@ -14,6 +14,8 @@
 docker run -i -t lwieske/osc:latest openstack --version
 ```
 
+See below under usage for an example with authentiction/authorisation ...
+
 ***
 
 ## Queens Series
@@ -56,7 +58,7 @@ docker run -i -t lwieske/osc:latest openstack --version
 
 ## Usage
 
-Set the environment variables in your calling shell and hand them over to ``docker run``
+Set the environment variables in your calling shell and hand them over to ``docker run`
 
 ```
 docker run \
