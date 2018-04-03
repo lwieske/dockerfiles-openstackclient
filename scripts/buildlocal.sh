@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for dir in osc3.14.0*;
+for dir in osc*;
 do
   echo ${dir} ; docker build -t ${dir} ${dir}
 done

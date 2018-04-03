@@ -18,7 +18,7 @@ ENV PACKAGES="    \
 RUN apk add --no-cache $PACKAGES                                          \
   && pip install --upgrade pip                                            \
   && mkdir -p /app                                                        \
-  && pip install python-openstackclient==3.12.0 --no-cache-dir --root=/app \
+  && pip install python-openstackclient==3.12.1 --no-cache-dir --root=/app \
   && sed -i '1 s/^.*$/\#\!\/usr\/bin\/python3.6/g' /app/usr/local/bin/openstack
 
 ################################################################################
