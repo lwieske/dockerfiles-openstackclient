@@ -25,5 +25,5 @@ env:
     - TAG='osc3.13.0'
     - TAG='osc3.14.0'
 
-install:
+script:
   - docker build -t lwieske/openstackclient:$TAG $TAG
