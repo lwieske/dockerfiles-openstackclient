@@ -1,14 +1,11 @@
 # OpenStack CLI Container Based off Alpine (3.0.0 - 3.15.0)
-
 ---
-
 [![Build Status](https://travis-ci.org/lwieske/dockerfiles-openstackclient.svg?branch=master)](https://travis-ci.org/lwieske/dockerfiles-openstackclient)
 
 [![Docker Build Status](https://img.shields.io/docker/build/lwieske/osc.svg)](https://hub.docker.com/r/lwieske/osc/builds/)
 [![Docker Stars](https://img.shields.io/docker/stars/lwieske/osc.svg)
 [![Docker Pulls](https://img.shields.io/docker/pulls/lwieske/osc.svg)](https://hub.docker.com/r/lwieske/osc/)
 [![Docker Hub](https://img.shields.io/docker/pulls/lwieske/osc.svg?style=flat)](https://registry.hub.docker.com/u/lwieske/osc/)
-
 ---
 
 **Dockerfiles** for [Openstack Command Line Client](https://docs.openstack.org/python-openstackclient/latest/) on [Alpine](https://registry.hub.docker.com/_/alpine/) for Docker Automated/Trusted Builds.
@@ -77,6 +74,6 @@ docker run \
       -e OS_USER_DOMAIN_ID \
       -e OS_USERNAME \
       -ti --rm \
-      osc3.14.0 \
+      lwieske/osc:3.15.0 \
       openstack image list
 ```
