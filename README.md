@@ -21,42 +21,45 @@ See below under usage for an example with authentiction/authorisation ...
 ***
 
 ## Queens Series
-| Image | Badge |
-| ----- | ----- |
-| lwieske/osc:3.14.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.14.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.14.0.svg() |
-| lwieske/osc:3.13.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.13.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.13.0.svg() |
+
+| Image | Version | Size |
+| ----- | ------- | ---- |
+| lwieske/osc:3.15.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.15.0.svg)](https://microbadger.com/images/lwieske/osc:3.15.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.15.0.svg)](https://microbadger.com/images/lwieske/osc:3.15.0) |
+| lwieske/osc:3.14.1 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.14.1.svg)](https://microbadger.com/images/lwieske/osc:3.14.1) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.14.1.svg)](https://microbadger.com/images/lwieske/osc:3.14.1) |
+| lwieske/osc:3.14.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.14.0.svg)](https://microbadger.com/images/lwieske/osc:3.14.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.14.0.svg)](https://microbadger.com/images/lwieske/osc:3.14.0) |
+| lwieske/osc:3.13.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.13.0.svg)](https://microbadger.com/images/lwieske/osc:3.13.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.13.0.svg)](https://microbadger.com/images/lwieske/osc:3.13.0) |
 
 ## Pike Series
 
-| Image | Badge |
-| ----- | ----- |
-| lwieske/osc:3.12.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.12.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.12.0.svg() |
-| lwieske/osc:3.11.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.11.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.11.0.svg() |
-| lwieske/osc:3.10.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.10.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.10.0.svg() |
-| lwieske/osc:3.9.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.9.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.9.0.svg() |
+| Image | Version | Size |
+| ----- | ------- | ---- |
+| lwieske/osc:3.12.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.12.0.svg)](https://microbadger.com/images/lwieske/osc:3.12.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.12.0.svg)](https://microbadger.com/images/lwieske/osc:3.12.0) |
+| lwieske/osc:3.11.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.11.0.svg)](https://microbadger.com/images/lwieske/osc:3.11.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.11.0.svg)](https://microbadger.com/images/lwieske/osc:3.11.0) |
+| lwieske/osc:3.10.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.10.0.svg)](https://microbadger.com/images/lwieske/osc:3.10.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.10.0.svg)](https://microbadger.com/images/lwieske/osc:3.10.0) |
+| lwieske/osc:3.9.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.9.0.svg)](https://microbadger.com/images/lwieske/osc:3.9.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.9.0.svg)](https://microbadger.com/images/lwieske/osc:3.9.0) |
 
 ## Ocata Series
 
-| Image | Badge |
-| ----- | ----- |
-| lwieske/osc:3.8.1 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.8.1.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.8.1.svg() |
-| lwieske/osc:3.8.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.8.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.8.0.svg() |
-| lwieske/osc:3.7.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.7.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.7.0.svg() |
-| lwieske/osc:3.6.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.6.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.6.0.svg() |
-| lwieske/osc:3.5.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.5.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.5.0.svg() |
-| lwieske/osc:3.4.1 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.4.1.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.4.1.svg() |
-| lwieske/osc:3.4.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.4.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.4.0.svg() |
-| lwieske/osc:3.3.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.3.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.3.0.svg() |
+| Image | Version | Size |
+| ----- | ------- | ---- |
+| lwieske/osc:3.8.1 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.8.1.svg)](https://microbadger.com/images/lwieske/osc:3.8.1) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.8.1.svg)](https://microbadger.com/images/lwieske/osc:3.8.1) |
+| lwieske/osc:3.8.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.8.0.svg)](https://microbadger.com/images/lwieske/osc:3.8.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.8.0.svg)](https://microbadger.com/images/lwieske/osc:3.8.0) |
+| lwieske/osc:3.7.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.7.0.svg)](https://microbadger.com/images/lwieske/osc:3.7.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.7.0.svg)](https://microbadger.com/images/lwieske/osc:3.7.0) |
+| lwieske/osc:3.6.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.6.0.svg)](https://microbadger.com/images/lwieske/osc:3.6.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.6.0.svg)](https://microbadger.com/images/lwieske/osc:3.6.0) |
+| lwieske/osc:3.5.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.5.0.svg)](https://microbadger.com/images/lwieske/osc:3.5.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.5.0.svg)](https://microbadger.com/images/lwieske/osc:3.5.0) |
+| lwieske/osc:3.4.1 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.4.1.svg)](https://microbadger.com/images/lwieske/osc:3.4.1) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.4.1.svg)](https://microbadger.com/images/lwieske/osc:3.4.1) |
+| lwieske/osc:3.4.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.4.0.svg)](https://microbadger.com/images/lwieske/osc:3.4.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.4.0.svg)](https://microbadger.com/images/lwieske/osc:3.4.0) |
+| lwieske/osc:3.3.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.3.0.svg)](https://microbadger.com/images/lwieske/osc:3.3.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.3.0.svg)](https://microbadger.com/images/lwieske/osc:3.3.0) |
 
 ## Newton Series
 
-| Image | Badge |
-| ----- | ----- |
-| lwieske/osc:3.2.1 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.2.1.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.2.1.svg() |
-| lwieske/osc:3.2.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.2.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.2.0.svg() |
-| lwieske/osc:3.1.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.1.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.1.0.svg() |
-| lwieske/osc:3.0.1 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.0.1.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.0.1.svg() |
-| lwieske/osc:3.0.0 | [![](https://img.shields.io/microbadger/image-size/lwieske/osc/3.0.0.svg() | [![](https://img.shields.io/microbadger/layers/lwieske/osc/3.0.0.svg() |
+| Image | Version | Size |
+| ----- | ------- | ---- |
+| lwieske/osc:3.2.1 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.2.1.svg)](https://microbadger.com/images/lwieske/osc:3.2.1) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.2.1.svg)](https://microbadger.com/images/lwieske/osc:3.2.1) |
+| lwieske/osc:3.2.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.2.0.svg)](https://microbadger.com/images/lwieske/osc:3.2.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.2.0.svg)](https://microbadger.com/images/lwieske/osc:3.2.0) |
+| lwieske/osc:3.1.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.1.0.svg)](https://microbadger.com/images/lwieske/osc:3.1.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.1.0.svg)](https://microbadger.com/images/lwieske/osc:3.1.0) |
+| lwieske/osc:3.0.1 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.0.1.svg)](https://microbadger.com/images/lwieske/osc:3.0.1) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.0.1.svg)](https://microbadger.com/images/lwieske/osc:3.0.1) |
+| lwieske/osc:3.0.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.0.0.svg)](https://microbadger.com/images/lwieske/osc:3.0.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.0.0.svg)](https://microbadger.com/images/lwieske/osc:3.0.0) |
 
 ## Usage
 
