@@ -1,4 +1,4 @@
-FROM python:3.6.4-alpine3.7 as buildtime
+FROM python:3.7.0-alpine3.8 as buildtime
 
 ENV PACKAGES="    \
   bash            \
@@ -18,14 +18,17 @@ ENV PACKAGES="    \
 RUN apk add --no-cache $PACKAGES                                          \
   && pip install --upgrade pip                                            \
   && mkdir -p /app                                                        \
-  && pip install python-openstackclient==3.14.1 --no-cache-dir --root=/app \
+  && pip install python-openstackclient==3.14.1                            \
+                 python-heatclient                                        \
+                 python-magnumclient                                      \
+                 --no-cache-dir --root=/app                               \
   && sed -i '1 s/^.*$/\#\!\/usr\/bin\/python3.6/g' /app/usr/local/bin/openstack
 
 ################################################################################
 ################################################################################
 ################################################################################
 
-FROM alpine:3.7 as runtime
+FROM alpine:3.8 as runtime
 
 ARG RUNTIME_PACKAGES="\
   ca-certificates     \
