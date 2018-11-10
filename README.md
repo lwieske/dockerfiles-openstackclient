@@ -20,6 +20,18 @@ See below under usage for an example with authentiction/authorisation ...
 
 ***
 
+| Image | Version | Size |
+| ----- | ------- | ---- |
+| lwieske/osc:3.17.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.17.0.svg)](https://microbadger.com/images/lwieske/osc:3.17.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.17.0.svg)](https://microbadger.com/images/lwieske/osc:3.17.0) |
+
+## Rocky Series
+
+| Image | Version | Size |
+| ----- | ------- | ---- |
+| lwieske/osc:3.16.1 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.16.1.svg)](https://microbadger.com/images/lwieske/osc:3.16.1) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.16.1.svg)](https://microbadger.com/images/lwieske/osc:3.16.1) |
+| lwieske/osc:3.16.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.16.0.svg)](https://microbadger.com/images/lwieske/osc:3.16.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.16.0.svg)](https://microbadger.com/images/lwieske/osc:3.16.0) |
+| lwieske/osc:3.15.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.15.0.svg)](https://microbadger.com/images/lwieske/osc:3.15.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.15.0.svg)](https://microbadger.com/images/lwieske/osc:3.15.0) |
+
 ## Queens Series
 
 | Image | Version | Size |
