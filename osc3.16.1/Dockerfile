@@ -18,7 +18,7 @@ ENV PACKAGES="    \
 RUN apk add --no-cache $PACKAGES                                          \
   && mkdir -p /app                                                        \
   && pip3 install                                                         \
-                  python-openstackclient==3.10.0                            \
+                  python-openstackclient==3.16.1                            \
                   python-heatclient                                        \
                   python-magnumclient                                      \
                   --upgrade --no-cache-dir --root=/app                     \

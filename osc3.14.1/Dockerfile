@@ -1,4 +1,4 @@
-FROM python:3.7.0-alpine3.8 as buildtime
+FROM python:3.6.6-alpine3.8 as buildtime
 
 ENV PACKAGES="    \
   bash            \
@@ -16,12 +16,12 @@ ENV PACKAGES="    \
 "
 
 RUN apk add --no-cache $PACKAGES                                          \
-  && pip install --upgrade pip                                            \
   && mkdir -p /app                                                        \
-  && pip install python-openstackclient==3.14.1                            \
-                 python-heatclient                                        \
-                 python-magnumclient                                      \
-                 --no-cache-dir --root=/app                               \
+  && pip3 install                                                         \
+                  python-openstackclient==3.14.1                            \
+                  python-heatclient                                        \
+                  python-magnumclient                                      \
+                  --upgrade --no-cache-dir --root=/app                     \
   && sed -i '1 s/^.*$/\#\!\/usr\/bin\/python3.6/g' /app/usr/local/bin/openstack
 
 ################################################################################
@@ -29,6 +29,14 @@ RUN apk add --no-cache $PACKAGES                                          \
 ################################################################################
 
 FROM alpine:3.8 as runtime
+
+# VERSIONS
+ENV ALPINE_VERSION=3.8 \
+    PYTHON_VERSION=3.6
+
+# PATHS
+ENV PYTHONPATH=/usr/local/lib/python$PYTHON_VERSION/site-packages \
+    PATH="/usr/lib/python$PYTHON_VERSION/bin/:${PATH}"
 
 ARG RUNTIME_PACKAGES="\
   ca-certificates     \
@@ -42,8 +50,6 @@ ARG RUNTIME_PACKAGES="\
 ARG BUILD_DATE
 ARG VCS_REF
 
-ENV PYTHONPATH=/usr/local/lib/python3.6/site-packages/
-
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="python-openstackclient" \
       org.label-schema.description="Python Openstack Client" \
@@ -54,7 +60,6 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.version=$VERSION \
       org.label-schema.schema-version="1.0.0-rc1"
 
-RUN apk add --no-cache $RUNTIME_PACKAGES \
-    && if [[ ! -e /usr/bin/python ]]; then ln -sf /usr/bin/python3 /usr/bin/python; fi
+RUN apk add --no-cache $RUNTIME_PACKAGES
 
 COPY --from=buildtime /app /
