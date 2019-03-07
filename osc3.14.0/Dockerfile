@@ -1,4 +1,4 @@
-FROM python:3.6.6-alpine3.8 as buildtime
+FROM python:3.7.2-alpine3.9 as buildtime
 
 ENV PACKAGES="    \
   bash            \
@@ -24,17 +24,17 @@ RUN apk add --no-cache $PACKAGES                                          \
                   python-octaviaclient                                     \
                   python-saharaclient                                      \
                   --upgrade --no-cache-dir --root=/app                     \
-  && sed -i '1 s/^.*$/\#\!\/usr\/bin\/python3.6/g' /app/usr/local/bin/openstack
+  && sed -i '1 s/^.*$/\#\!\/usr\/bin\/python3.7.2/g' /app/usr/local/bin/openstack
 
 ################################################################################
 ################################################################################
 ################################################################################
 
-FROM alpine:3.8 as runtime
+FROM alpine:3.9 as runtime
 
 # VERSIONS
-ENV ALPINE_VERSION=3.8 \
-    PYTHON_VERSION=3.6
+ENV ALPINE_VERSION=3.9 \
+    PYTHON_VERSION=3.7.2
 
 # PATHS
 ENV PYTHONPATH=/usr/local/lib/python$PYTHON_VERSION/site-packages \
