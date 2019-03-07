@@ -18,7 +18,9 @@ docker run -i -t lwieske/osc:latest openstack --version
 
 See below under usage for an example with authentiction/authorisation ...
 
-***
+---
+
+## Stein Series
 
 | Image | Version | Size |
 | ----- | ------- | ---- |
@@ -28,6 +30,7 @@ See below under usage for an example with authentiction/authorisation ...
 
 | Image | Version | Size |
 | ----- | ------- | ---- |
+| lwieske/osc:3.16.2 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.16.2.svg)](https://microbadger.com/images/lwieske/osc:3.16.2) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.16.2.svg)](https://microbadger.com/images/lwieske/osc:3.16.2) |
 | lwieske/osc:3.16.1 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.16.1.svg)](https://microbadger.com/images/lwieske/osc:3.16.1) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.16.1.svg)](https://microbadger.com/images/lwieske/osc:3.16.1) |
 | lwieske/osc:3.16.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.16.0.svg)](https://microbadger.com/images/lwieske/osc:3.16.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.16.0.svg)](https://microbadger.com/images/lwieske/osc:3.16.0) |
 | lwieske/osc:3.15.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.15.0.svg)](https://microbadger.com/images/lwieske/osc:3.15.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.15.0.svg)](https://microbadger.com/images/lwieske/osc:3.15.0) |
@@ -37,6 +40,8 @@ See below under usage for an example with authentiction/authorisation ...
 | Image | Version | Size |
 | ----- | ------- | ---- |
 | lwieske/osc:3.15.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.15.0.svg)](https://microbadger.com/images/lwieske/osc:3.15.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.15.0.svg)](https://microbadger.com/images/lwieske/osc:3.15.0) |
+| lwieske/osc:3.14.3 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.14.3.svg)](https://microbadger.com/images/lwieske/osc:3.14.3) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.14.3.svg)](https://microbadger.com/images/lwieske/osc:3.14.3) |
+| lwieske/osc:3.14.2 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.14.2.svg)](https://microbadger.com/images/lwieske/osc:3.14.2) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.14.2.svg)](https://microbadger.com/images/lwieske/osc:3.14.2) |
 | lwieske/osc:3.14.1 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.14.1.svg)](https://microbadger.com/images/lwieske/osc:3.14.1) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.14.1.svg)](https://microbadger.com/images/lwieske/osc:3.14.1) |
 | lwieske/osc:3.14.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.14.0.svg)](https://microbadger.com/images/lwieske/osc:3.14.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.14.0.svg)](https://microbadger.com/images/lwieske/osc:3.14.0) |
 | lwieske/osc:3.13.0 | [![](https://images.microbadger.com/badges/version/lwieske/osc:3.13.0.svg)](https://microbadger.com/images/lwieske/osc:3.13.0) | [![](https://images.microbadger.com/badges/image/lwieske/osc:3.13.0.svg)](https://microbadger.com/images/lwieske/osc:3.13.0) |
