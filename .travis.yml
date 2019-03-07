@@ -28,8 +28,12 @@ env:
     - TAG='osc3.14.0'
     - TAG='osc3.14.1'
     - TAG='osc3.14.2'
+    - TAG='osc3.14.3'
     - TAG='osc3.15.0'
     - TAG='osc3.16.0'
+    - TAG='osc3.16.1'
+    - TAG='osc3.16.2'
+    - TAG='osc3.17.0'
 
 script:
   - docker build -t lwieske/openstackclient:$TAG $TAG

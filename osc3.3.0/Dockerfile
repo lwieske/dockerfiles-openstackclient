@@ -21,6 +21,8 @@ RUN apk add --no-cache $PACKAGES                                          \
                   python-openstackclient==3.3.0                            \
                   python-heatclient                                        \
                   python-magnumclient                                      \
+                  python-octaviaclient                                     \
+                  python-saharaclient                                      \
                   --upgrade --no-cache-dir --root=/app                     \
   && sed -i '1 s/^.*$/\#\!\/usr\/bin\/python3.6/g' /app/usr/local/bin/openstack
 
